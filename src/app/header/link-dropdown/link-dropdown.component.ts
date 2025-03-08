@@ -2,24 +2,18 @@ import { CommonModule } from '@angular/common';
 import { Component, ViewChild } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-link-dropdown',
-  imports: [CommonModule, MatSelectModule, ReactiveFormsModule],
+  imports: [CommonModule, MatSelectModule, ReactiveFormsModule, RouterLink, RouterLinkActive],
   templateUrl: './link-dropdown.component.html',
   styleUrl: './link-dropdown.component.scss'
 })
 export class LinkDropdownComponent {
-  @ViewChild('dropdown') dropdownMenu: any;
+  @ViewChild('dropdownMenu') dropdownMenu: any;
 
   isHovering: boolean = false;
 
   selected  = new FormControl('MORE');
-
-  onLeave() {
-    if (this.dropdownMenu.panelOpen) {
-      return;
-    }
-    this.isHovering = false;
-  }
 }

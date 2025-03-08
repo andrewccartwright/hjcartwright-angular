@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+.links, .links:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.links:link, .links:hover, .links:active {
+    color: rgb(185, 181, 180);
+}
+
+
+a, div {
+    font-weight: 500;
+}

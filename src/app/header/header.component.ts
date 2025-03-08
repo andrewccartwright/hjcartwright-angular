@@ -49,7 +49,11 @@ export class HeaderComponent implements OnInit{
 
     this.socialMediaLinks = [
       {
-        href: 'https://www.facebook.com/hjcartwright',
+        href: 'https://www.instagram.com/hjcartwrightauthor/',
+        faIcon: faInstagram
+      },
+      {
+        href: 'https://www.facebook.com/profile.php?id=61556437804008',
         faIcon: faFacebookF
       },
       {
@@ -57,15 +61,11 @@ export class HeaderComponent implements OnInit{
         faIcon: faGoodreadsG
       },
       {
-        href: 'https://www.instagram.com/hjcartwright/',
-        faIcon: faInstagram
-      },
-      {
-        href: 'https://www.tiktok.com/@hjcartwright',
+        href: 'https://www.tiktok.com/@hjcartwrightauthor?lang=en',
         faIcon: faTiktok
       },
       {
-        href: 'https://www.pinterest.com/hjcartwright',
+        href: 'https://www.pinterest.com/hjcartwrightauthor/',
         faIcon: faPinterestP
       }
     ]

@@ -1,5 +1,5 @@
-$width: 80vw;
-$icon-size: 10px;
+$width: 75vw;
+$icon-size: 1.5vw;
 
 #header-section {
     width: $width;
@@ -10,7 +10,6 @@ $icon-size: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: $icon-size * 3;
 } 
 
 #header-links-section {
@@ -19,7 +18,7 @@ $icon-size: 10px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25vh;
+    padding: 0.5vh;
 }
 
 #main-links-section {
@@ -43,5 +42,5 @@ $icon-size: 10px;
 
 mat-divider {
     width: $width;
-    color: grey;
+    border-top-color: rgb(185, 181, 180);
 }

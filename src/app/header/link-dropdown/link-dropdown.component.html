@@ -1,0 +1,9 @@
+<div (mouseenter)="isHovering = true" (mouseleave)="isHovering = false">
+    <span>MORE</span>
+
+    <div class="dropdown-menu" *ngIf="isHovering">
+        <ul>
+            <li class="dropdown-menu-items">content warnings</li>
+        </ul>
+    </div>
+</div>

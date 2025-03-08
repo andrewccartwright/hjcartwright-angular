@@ -1,0 +1,60 @@
+$width: 80vw;
+$icon-size: 10px;
+
+#header-section {
+    width: $width;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: $icon-size * 3;
+} 
+
+#header-links-section {
+    display: flex;
+    width: $width - 5vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25vh;
+}
+
+#main-links-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-image {
+    width: 45vw;
+    max-width: 270px;
+    padding: 15px;
+    color: black;
+}
+
+#social-media-links-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 100%;
+    width: $icon-size;
+    height: $icon-size;
+}
+
+mat-divider {
+    width: $width;
+    color: grey;
+}

@@ -1,0 +1,19 @@
+<div id="header-section">
+    <img id="logo-image" src="logo.png" alt="logo" />
+
+    <mat-divider></mat-divider>
+
+    <div id="header-links-section">
+        <div id="main-links-section">
+            <app-link *ngFor="let link of links;" [link]="link"></app-link>
+            <app-link-dropdown></app-link-dropdown>
+        </div>
+        
+
+        <div id="social-media-links-section">
+            <app-social-media-link *ngFor="let link of socialMediaLinks;" [link]="link"></app-social-media-link>
+        </div>
+    </div>
+
+    <mat-divider></mat-divider>
+</div>

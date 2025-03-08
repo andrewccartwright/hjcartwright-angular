@@ -41,19 +41,6 @@ $icon-size: 10px;
     flex-direction: row;
 }
 
-.social-media-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: grey;
-    padding: 10px;
-    border-radius: 100%;
-    width: $icon-size;
-    height: $icon-size;
-}
-
 mat-divider {
     width: $width;
     color: grey;

@@ -1,0 +1,11 @@
+@use '../../../styles.scss' as *;
+
+
+@media screen and (max-width: $mobile-width) {
+    .mobile-header-links {
+        width: 100vw;
+        text-align: center;
+        padding: 1vh;
+        border: 1px solid rgb(220, 218, 217);
+    }
+}

@@ -24,9 +24,6 @@ export class BookDetailsComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.book$.subscribe(book => {
-      console.log(book);
-
-      console.log(this.bookDescription);
       this.bookDescription.nativeElement.innerHTML = book.description;
     })
   }

@@ -7,4 +7,5 @@
 
 <div *ngIf="showMenu" id="mobile-navigation">
     <app-link class="mobile-header-links" *ngFor="let link of links;" [link]="link" (click)="toggleMenu()"></app-link>
+    <app-mobile-link-dropdown [toggleMenu]="childFunction"></app-mobile-link-dropdown>
 </div>

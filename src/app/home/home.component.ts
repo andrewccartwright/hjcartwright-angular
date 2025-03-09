@@ -20,7 +20,7 @@ export class HomeComponent {
       {
         book: currentRelease,
         title: 'New Release!',
-        highlight: `${currentRelease.title}, book ${currentRelease.order} of ${currentRelease.seriesTitle}, is now available!`
+        highlight: `${currentRelease.title}, book threethree of ${currentRelease.seriesTitle}, is now available!`
       }
     ]
   }

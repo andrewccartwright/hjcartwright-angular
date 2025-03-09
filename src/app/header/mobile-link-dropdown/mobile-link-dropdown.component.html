@@ -1,0 +1,11 @@
+<div class="mobile-header-links header-links links" (click)="toggleDropdown()">
+    <fa-icon *ngIf="!showDropdown" [icon]="faCaretRight"></fa-icon>
+    <fa-icon *ngIf="showDropdown" [icon]="faCaretDown"></fa-icon> 
+    More
+</div>
+
+<div *ngIf="showDropdown" id="mobile-link-dropdown">
+    <div class="mobile-header-links header-links links">
+        <a class="links" routerLink="/content-warnings" routerLinkActive="active" (click)="toggleMenu()">content warnings</a>
+    </div>
+</div>

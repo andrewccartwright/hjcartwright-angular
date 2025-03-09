@@ -1,0 +1,77 @@
+@use '../../../styles.scss' as *;
+
+#book-highlight {
+    display: flex;
+    width: 45vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 5vh;
+    margin-top: 3vh;
+    border: 2px solid rgb(220, 218, 217);
+}
+
+#highlight-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+}
+
+#highlight-text {
+    margin-bottom: 7vh;
+}
+
+.highlight-image {
+    width: 25vw;
+    max-width: 200px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: $mobile-width) {
+    #book-highlight {
+        display: flex;
+        width: 80vw;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 5vh 0;
+        margin-top: 3vh;
+        border: 2px solid rgb(220, 218, 217);
+    }
+
+    #highlight-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    #highlight-text {
+        margin-bottom: 7vh;
+    }
+
+    .highlight-image {
+        width: 50vw;
+        max-width: 200px;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+    }
+}

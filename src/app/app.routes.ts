@@ -4,6 +4,7 @@ import { BooksComponent } from './books/books.component';
 import { ShopComponent } from './shop/shop.component';
 import { AboutComponent } from './about/about.component';
 import { ContentWarningsComponent } from './content-warnings/content-warnings.component';
+import { BookDetailsComponent } from './books/book-details/book-details.component';
 
 export const routes: Routes = [
     {
@@ -13,6 +14,18 @@ export const routes: Routes = [
     {
         path: 'books',
         component: BooksComponent
+    },
+    {
+        path: 'books/diluted-truths',
+        component: BookDetailsComponent
+    },
+    {
+        path: 'books/following-fortunes',
+        component: BookDetailsComponent
+    },
+    {
+        path: 'books/fates-demise',
+        component: BookDetailsComponent
     },
     {
         path: 'shop',

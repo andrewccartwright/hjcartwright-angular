@@ -1,0 +1,14 @@
+<div id="book-details-section" *ngIf="book$ | async as book">
+    <div id="book-details">
+        <img class="book-description-image" [src]="book.imgSrc" [alt]="book.title" />
+        <div id="book-details-content">
+            <h2>{{ book.title }}</h2>
+
+            <h3>{{ book.seriesTitle }}: Book {{ book.order }}</h3>
+
+            <mat-divider></mat-divider>
+            <div id="book-description" #bookDescription></div>
+        </div>
+    
+    </div>
+</div>

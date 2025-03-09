@@ -1,0 +1,10 @@
+<div id="mobile-menu">
+    <div id="menu-dropdown">
+        <p>Menu</p>
+        <fa-icon id="menu-icon" [icon]="faBars" (click)="toggleMenu()"></fa-icon>
+    </div>    
+</div>
+
+<div *ngIf="showMenu" id="mobile-navigation">
+    <app-link class="mobile-header-links" *ngFor="let link of links;" [link]="link" (click)="toggleMenu()"></app-link>
+</div>

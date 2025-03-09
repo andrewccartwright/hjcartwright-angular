@@ -1,0 +1,17 @@
+@use '../../../styles.scss' as *;
+
+.book-image {
+    width: 25vw;
+    max-width: 200px;
+    padding: 5vh 1.5vw;
+    color: black;
+}
+
+@media screen and (max-width: $mobile-width) {
+    .book-image {
+        width: 60vw;
+        max-width: 60vw;
+        padding: 2vh;
+        color: black;
+    }
+}

@@ -1,23 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+$width: 80vw;
+$icon-size: 1.5vw;
+$mobile-width: 1150px;
 
 html, body { height: 100%; }
 
 body { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    background-image: url('/images/background.png');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.links, .links:visited {
+.links, .links:visited, .links:link {
     text-decoration: none;
     color: black;
 }
 
-.links:link, .links:hover, .links:active {
+.links:hover, .links:active {
     color: rgb(185, 181, 180);
 }
 
-
-a, div {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel-Bold';
     font-weight: 500;
+}
+
+.book-image {
+    width: 25vw;
+    max-width: 200px;
+    padding: 5vh 1.5vw;
+    color: black;
+}
+
+#content-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw - 6vw;
+    border-left: 2px solid rgb(220, 218, 217);
+    border-right: 2px solid rgb(220, 218, 217);
+    background-color: white;
+    z-index: 1;
+}
+
+mat-divider {
+    width: $width;
+    border-top-color: rgb(220, 218, 217);
+}
+
+@font-face {
+    font-family: 'Cinzel-Bold';
+    src: url('/fonts/Cinzel-Bold.ttf') format('truetype');
+}
+
+@media screen and (max-width: $mobile-width) {
+    body {
+        background-color: white;
+    }
+    
+    #content-container {
+        width: 100vw;
+        border: none;
+        overflow-x: hidden;
+    }
 }

@@ -1,0 +1,13 @@
+<div id="book-highlight" class="home-panel">
+    <img class="highlight-image" [src]="bookHighlight.book.imgSrc" [alt]="bookHighlight.book.title" />
+
+    <div id="highlight-content">
+        <h1>{{bookHighlight.title}}</h1>
+
+        <p id="highlight-text">{{bookHighlight.highlight}}</p>
+
+        <a [routerLink]="`books/${bookHighlight.book.link}`" routerLinkActive="active" [state]="{book: bookHighlight.book}">
+            <button mat-raised-button color="primary">Learn More</button>
+        </a>
+    </div> 
+</div>

@@ -1,0 +1,50 @@
+@use '../../../styles.scss' as *;
+
+#mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: $mobile-width) {
+    #mobile-menu {
+        display: flex;
+        width: 100vw;
+        height: 5vh;
+        position: fixed;
+        background-color: white;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-bottom: 1px solid rgb(220, 218, 217);
+    }
+
+    #menu-dropdown {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        width: 100vw;
+        height: 5vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    #menu-icon {
+        padding: 1vh;
+    }
+
+    #mobile-navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .mobile-header-links {
+        width: 100vw;
+        text-align: center;
+        padding: 1vh;
+        border: 1px solid rgb(220, 218, 217);
+    }
+}

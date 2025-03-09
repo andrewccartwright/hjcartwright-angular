@@ -1,0 +1,44 @@
+@use '../../styles.scss' as *;
+
+#books-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#book-pictures {
+    display: flex;
+    width: $width;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-divider {
+    width: $width - 10vw;
+    border-top-color: rgb(220, 218, 217);
+}
+
+@media screen and (max-width: $mobile-width) {
+    #books-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #book-pictures {
+        display: flex;
+        width: 80vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    mat-divider {
+        width: 80vw;
+        border-top-color: rgb(220, 218, 217);
+    }
+    
+}

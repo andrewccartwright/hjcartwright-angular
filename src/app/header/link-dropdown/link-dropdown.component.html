@@ -1,4 +1,4 @@
-<div (mouseenter)="isHovering = true" (mouseleave)="isHovering = false">
+<div id="more-section" (mouseenter)="isHovering = true" (mouseleave)="onLeave()">
     <div class="links">MORE</div>
 
     <ul class="dropdown-menu" *ngIf="isHovering" #dropdownMenu>

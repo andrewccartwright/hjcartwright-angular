@@ -1,1 +1,8 @@
-<p>books works!</p>
+<div id="books-section">
+    <h1>The Advocates</h1>
+    <mat-divider></mat-divider>
+    
+    <div id="book-pictures">
+        <app-book *ngFor="let book of books;" [book]="book"></app-book>
+    </div>
+</div>

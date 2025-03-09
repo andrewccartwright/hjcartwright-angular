@@ -1,5 +1,4 @@
-$width: 75vw;
-$icon-size: 1.5vw;
+@use '../../styles.scss' as *;
 
 #header-section {
     width: $width;
@@ -10,6 +9,8 @@ $icon-size: 1.5vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    font-family: 'Cinzel-Bold';
 } 
 
 #header-links-section {
@@ -18,7 +19,7 @@ $icon-size: 1.5vw;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5vh;
+    padding: 1vh;
 }
 
 #main-links-section {
@@ -29,9 +30,9 @@ $icon-size: 1.5vw;
 }
 
 #logo-image {
-    width: 45vw;
-    max-width: 270px;
-    padding: 15px;
+    width: 50vw;
+    max-width: 350px;
+    padding: 5vh;
     color: black;
 }
 
@@ -40,7 +41,13 @@ $icon-size: 1.5vw;
     flex-direction: row;
 }
 
-mat-divider {
-    width: $width;
-    border-top-color: rgb(185, 181, 180);
+@media screen and (max-width: $mobile-width) {
+    #header-section {
+        width: 100vw;
+        margin-top: 5vh;
+    }
+
+    #header-links-section {
+        display: none;
+    }
 }

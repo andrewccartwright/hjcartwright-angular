@@ -87,6 +87,13 @@ mat-divider {
         font-weight: 200;
     }
 
+    #book-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     h2 {
         padding: 0;
         margin: 0;

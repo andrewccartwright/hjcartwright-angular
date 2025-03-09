@@ -19,7 +19,7 @@ import { MobileMenuComponent } from "./mobile-menu/mobile-menu.component";
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent implements OnInit{
-  selectOption = 'MORE';
+  selectOption = 'More';
 
   links: Link[] = [];
   socialMediaLinks: MediaLink[] = [];

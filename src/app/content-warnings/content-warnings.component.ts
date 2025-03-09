@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-content-warnings',
-  imports: [],
+  imports: [MatDividerModule],
   templateUrl: './content-warnings.component.html',
   styleUrl: './content-warnings.component.scss'
 })

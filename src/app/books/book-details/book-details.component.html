@@ -8,6 +8,18 @@
 
             <mat-divider></mat-divider>
             <div id="book-description" #bookDescription></div>
+
+            <div id="book-links">
+                <a [href]="book.amazonLink" target="_blank">
+                    <button mat-raised-button color="primary">Buy on Amazon</button>
+                </a>
+                <a [href]="book.goodreadsLink" target="_blank">
+                    <button mat-raised-button color="primary">Goodreads</button>
+                </a>
+                <a routerLink="/content-warnings" routerLinkActive="active">
+                    <button mat-raised-button color="primary">Content Warnings</button>
+                </a>
+            </div>
         </div>
     
     </div>

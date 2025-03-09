@@ -9,34 +9,42 @@ import { BookDetailsComponent } from './books/book-details/book-details.componen
 export const routes: Routes = [
     {
         path: '',
-        component: HomeComponent
+        component: HomeComponent,
+        title: 'H.J. Cartwright - Author'
     },
     {
         path: 'books',
-        component: BooksComponent
+        component: BooksComponent,
+        title: 'H.J. Cartwright - Books'
     },
     {
         path: 'books/diluted-truths',
-        component: BookDetailsComponent
+        component: BookDetailsComponent,
+        title: 'Diluted Truths: The Advocates'
     },
     {
         path: 'books/following-fortunes',
-        component: BookDetailsComponent
+        component: BookDetailsComponent,
+        title: 'Following Fortunes: The Advocates'
     },
     {
         path: 'books/fates-demise',
-        component: BookDetailsComponent
+        component: BookDetailsComponent,
+        title: 'Fate\'s Demise: The Advocates'
     },
     {
         path: 'shop',
-        component: ShopComponent
+        component: ShopComponent,
+        title: 'H.J. Cartwright - Shop'
     },
     {
         path: 'about',
-        component: AboutComponent
+        component: AboutComponent,
+        title: 'H.J. Cartwright - About Me'
     },
     {
         path: 'content-warnings',
-        component: ContentWarningsComponent
+        component: ContentWarningsComponent,
+        title: 'Content Warnings'
     }
 ];

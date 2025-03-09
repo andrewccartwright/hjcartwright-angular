@@ -15,11 +15,11 @@ export class LinkDropdownComponent {
 
   isHovering: boolean = false;
 
-  selected  = new FormControl('MORE');
+  selected  = new FormControl('More');
 
   onLeave() {
     setTimeout(() => {
       this.isHovering = false;
-    }, 200);
+    }, 250);
   }
 }

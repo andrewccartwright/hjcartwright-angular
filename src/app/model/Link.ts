@@ -8,21 +8,21 @@ export const links = [
     {
       id: 'home',
       path: '/',
-      text: 'HOME'
+      text: 'Home'
     },
     {
       id: 'books',
       path: '/books',
-      text: 'BOOKS'
+      text: 'Books'
     },
     {
       id: 'about',
       path: '/about',
-      text: 'ABOUT'
+      text: 'About'
     },
     {
       id: 'shop',
       path: '/shop',
-      text: 'SHOP'
+      text: 'Shop'
     }
 ]

@@ -5,4 +5,6 @@ export type Book = {
     imgSrc: string;
     description: string;
     link: string;
+    goodreadsLink: string;
+    amazonLink: string;
 }

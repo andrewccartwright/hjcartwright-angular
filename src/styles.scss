@@ -69,12 +69,18 @@ mat-divider {
 }
 
 strong {
-    font-family: 'Garet-Bold';
+    font-family: 'GreatVibes-Regular';
+    font-size: 28px;
 }
 
 @font-face {
     font-family: 'Garet-Book';
     src: url('/fonts/Garet-Book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url('/fonts/GreatVibes-Regular.ttf') format('truetype');
 }
 
 @font-face {

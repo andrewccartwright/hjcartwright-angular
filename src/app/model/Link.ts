@@ -2,6 +2,7 @@ export type Link = {
     id: string;
     path: string;
     text: string;
+    external?: boolean;
 }
 
 export const links = [
@@ -22,7 +23,8 @@ export const links = [
     },
     {
       id: 'shop',
-      path: '/shop',
-      text: 'Shop'
+      path: 'https://hjcartwright.square.site/',
+      text: 'Shop',
+      external: true
     }
 ]

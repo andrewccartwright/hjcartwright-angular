@@ -1,1 +1,2 @@
-<a class="header-links links" [id]="link.id" [routerLink]="link.path" routerLinkActive="active">{{link.text}}</a>
+<a *ngIf="!link.external" class="header-links links" [id]="link.id" [routerLink]="link.path" routerLinkActive="active">{{link.text}}</a>
+<a *ngIf="link.external" class="header-links links" [id]="link.id" [href]="link.path">{{link.text}}</a>

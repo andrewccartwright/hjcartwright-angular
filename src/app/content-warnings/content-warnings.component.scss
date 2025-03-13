@@ -20,8 +20,13 @@
     align-items: center;
 }
 
-h3 {
+.book-titles {
     font-family: 'Garet-Bold';
+    margin-bottom: 0;
+}
+
+.content-warning {
+    margin-top: 0.25vh;
 }
 
 mat-divider {

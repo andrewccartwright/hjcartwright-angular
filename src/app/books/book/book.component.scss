@@ -7,10 +7,18 @@
     color: black;
 }
 
-@media screen and (max-width: $mobile-width) {
+@media screen and (min-width: 800px) and (max-width: $mobile-width) {
     .book-image {
         width: 60vw;
-        max-width: 500px;
+        padding: 2vh;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .book-image {
+        width: 80vw;
+        max-width: 280px;
         padding: 2vh;
         color: black;
     }

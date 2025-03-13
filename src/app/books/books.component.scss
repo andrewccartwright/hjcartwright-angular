@@ -20,17 +20,13 @@ mat-divider {
     border-top-color: rgb(220, 218, 217);
 }
 
-@media screen and (max-width: $mobile-width) {
+h1 {
+    font-size: 28px;
+}
+
+@media screen and (min-width: 800px) and (max-width: $mobile-width) {
     #books-section {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #book-pictures {
-        display: flex;
-        width: 80vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -40,5 +36,14 @@ mat-divider {
         width: 80vw;
         border-top-color: rgb(220, 218, 217);
     }
-    
+}
+
+@media screen and (max-width: 800px) {
+    #book-pictures {
+        display: flex;
+        width: 80vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -68,6 +68,11 @@ button {
     margin: 1vh;
 }
 
+img {
+    height: auto;
+    object-fit: cover;
+}
+
 mat-divider {
     width: $width;
     border-top-color: rgb(220, 218, 217);

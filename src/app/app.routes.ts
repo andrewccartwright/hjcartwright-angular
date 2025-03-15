@@ -30,7 +30,7 @@ export const routes: Routes = [
     {
         path: 'books/fates-demise',
         component: BookDetailsComponent,
-        title: 'Fate\'s Demise: The Advocates'
+        title: 'Fates Demise: The Advocates'
     },
     {
         path: 'shop',

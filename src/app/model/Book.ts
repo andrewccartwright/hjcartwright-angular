@@ -1,5 +1,5 @@
 export type Book = {
-    order: number;
+    order: string;
     seriesTitle: string;
     title: string;
     imgSrc: string;

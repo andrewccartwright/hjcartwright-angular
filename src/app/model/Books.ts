@@ -2,8 +2,8 @@ import { Book } from './Book';
 
 export const books: Book[] = [
 {
-  order: 1,
-  seriesTitle: 'The Advocates',
+  order: "ONE",
+  seriesTitle: 'THE ADVOCATES',
   title: 'Diluted Truths',
   imgSrc: 'images/diluted_truths.jpg',
   link: 'diluted-truths',
@@ -31,8 +31,8 @@ export const books: Book[] = [
   Right?`
 },
 {
-  order: 2,
-  seriesTitle: 'The Advocates',
+  order: "TWO",
+  seriesTitle: 'THE ADVOCATES',
   title: 'Following Fortunes',
   imgSrc: 'images/following_fortunes.png',
   link: 'following-fortunes',
@@ -65,8 +65,8 @@ export const books: Book[] = [
   `
 },
 {
-  order: 3,
-  seriesTitle: 'The Advocates',
+  order: "THREE",
+  seriesTitle: 'THE ADVOCATES',
   title: 'Fates Demise',
   imgSrc: 'images/fates_demise.jpg',
   link: 'fates-demise',

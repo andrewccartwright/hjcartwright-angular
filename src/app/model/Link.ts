@@ -21,10 +21,10 @@ export const links = [
       path: '/about',
       text: 'About'
     },
-    // {
-    //   id: 'shop',
-    //   path: 'https://hjcartwright.square.site/',
-    //   text: 'Shop',
-    //   external: true
-    // }
+    {
+      id: 'shop',
+      path: 'https://hj-cartwright-shop.square.site/',
+      text: 'Shop',
+      external: true
+    }
 ]

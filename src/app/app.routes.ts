@@ -33,6 +33,11 @@ export const routes: Routes = [
         title: 'Fates Demise: The Advocates'
     },
     {
+        path: 'books/ensuing-chances',
+        component: BookDetailsComponent,
+        title: 'Ensuing Chances: The Advocates'
+    },
+    {
         path: 'shop',
         component: ShopComponent,
         title: 'H.J. Cartwright - Shop'

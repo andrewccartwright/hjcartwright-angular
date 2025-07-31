@@ -1,15 +1,15 @@
 import { Book } from './Book';
 
 export const books: Book[] = [
-{
-  order: "ONE",
-  seriesTitle: 'THE ADVOCATES',
-  title: 'Diluted Truths',
-  imgSrc: 'images/diluted_truths.jpg',
-  link: 'diluted-truths',
-  goodreadsLink: 'https://www.goodreads.com/book/show/207672080-diluted-truths',
-  amazonLink: 'https://www.amazon.com/Diluted-Truths-Advocates-Book-1-ebook/dp/B0CV4SSZJK?ref_=ast_author_mpb',
-  description: `<strong class='names'><i>Jackie</i></strong>
+  {
+    order: "ONE",
+    seriesTitle: 'THE ADVOCATES',
+    title: 'Diluted Truths',
+    imgSrc: 'images/diluted_truths.jpg',
+    link: 'diluted-truths',
+    goodreadsLink: 'https://www.goodreads.com/book/show/207672080-diluted-truths',
+    amazonLink: 'https://www.amazon.com/Diluted-Truths-Advocates-Book-1-ebook/dp/B0CV4SSZJK?ref_=ast_author_mpb',
+    description: `<strong class='names'><i>Jackie</i></strong>
   <br>
   Have you ever found yourself in a situation that just seems to get messier by the second? 
   Well, I have. Quite a few times. But researching the Cult of Creatio was slowly becoming 
@@ -29,16 +29,16 @@ export const books: Book[] = [
   She was slowly becoming my world. But, I couldn't have her. Couldn't love her.
   <br><br>
   Right?`
-},
-{
-  order: "TWO",
-  seriesTitle: 'THE ADVOCATES',
-  title: 'Following Fortunes',
-  imgSrc: 'images/following_fortunes.png',
-  link: 'following-fortunes',
-  goodreadsLink: 'https://www.goodreads.com/book/show/218683426-following-fortunes',
-  amazonLink: 'https://www.amazon.com/Following-Fortunes-Advocates-Book-2-ebook/dp/B0DGMBBH5Z?ref_=ast_author_dp',
-  description: `<strong class='names'><i>Theo</i></strong>
+  },
+  {
+    order: "TWO",
+    seriesTitle: 'THE ADVOCATES',
+    title: 'Following Fortunes',
+    imgSrc: 'images/following_fortunes.png',
+    link: 'following-fortunes',
+    goodreadsLink: 'https://www.goodreads.com/book/show/218683426-following-fortunes',
+    amazonLink: 'https://www.amazon.com/Following-Fortunes-Advocates-Book-2-ebook/dp/B0DGMBBH5Z?ref_=ast_author_dp',
+    description: `<strong class='names'><i>Theo</i></strong>
   <br>
   I would do anything for my daughter. 
   Including marrying my sister's best friend. A man that drove me crazy because he was inexplicably calm. 
@@ -63,16 +63,16 @@ export const books: Book[] = [
   the shadows we were only now bringing to light?
   <br><br>
   `
-},
-{
-  order: "THREE",
-  seriesTitle: 'THE ADVOCATES',
-  title: 'Fates Demise',
-  imgSrc: 'images/fates_demise.jpg',
-  link: 'fates-demise',
-  goodreadsLink: 'https://www.goodreads.com/book/show/221931470-fates-demise',
-  amazonLink: 'https://www.amazon.com/gp/product/B0DP1D8MHK?ref_=dbs_m_mng_rwt_calw_tkin_2&storeType=ebooks',
-  description: `<strong class='names'><i>Nate</i></strong>
+  },
+  {
+    order: "THREE",
+    seriesTitle: 'THE ADVOCATES',
+    title: 'Fates Demise',
+    imgSrc: 'images/fates_demise.jpg',
+    link: 'fates-demise',
+    goodreadsLink: 'https://www.goodreads.com/book/show/221931470-fates-demise',
+    amazonLink: 'https://www.amazon.com/gp/product/B0DP1D8MHK?ref_=dbs_m_mng_rwt_calw_tkin_2&storeType=ebooks',
+    description: `<strong class='names'><i>Nate</i></strong>
   <br>
   Surviving as a captive for nearly eight years was hard. 
   Recovering from those years was harder. I couldn't trust my thoughts, 
@@ -101,5 +101,34 @@ export const books: Book[] = [
   <br><br>
   Was he worth the risk?
   `
-}
+  },
+  {
+    order: "FOUR",
+    seriesTitle: "THE ADVOCATES",
+    title: 'Ensuing Chances',
+    imgSrc: 'images/ensuing_chances.png',
+    link: 'ensuing-chances',
+    goodreadsLink: 'https://www.goodreads.com/book/show/232548842-ensuing-chances',
+    amazonLink: 'https://www.amazon.com/Ensuing-Chances-Advocates-Book-4-ebook/dp/B0F75S6VTQ',
+    description: `<strong class='names'><i>Malachi</i></strong>
+  <br>
+  The First Advocate, leader of the new tomorrow. That's who I am, or at least, 
+  that's what the Cult of Creatio believes. A cult that's haunted me since childhood.
+   They kidnapped one sister, tormented the other, and faked my brother's death before 
+   holding him captive for eight years. They made me lose the love of my life, Rose.
+  <br><br>
+  She's back now, crashing into my life and wanting a second chance. How can I forgive the girl who left me when I stayed behind to protect my family? I sacrificed my freedom, my future... for them.
+  <br><br>
+  I couldn't let Rose distract me, not now when I finally have a plan to take down the cult. But with each smile, each soft touch, I'm reminded of the hope I thought I lost. Hope for freedom, for love, for a life of my own I've been fighting for.
+
+  <br><br>
+  <strong class='names'><i>Rose</i></strong>
+  <br>
+  I fell in love with Malachi James when I was fifteen, but he kept secrets I didn't understand. We had a plan to leave, to escape the life that trapped us. But Malachi sabotaged it, staying behind while I ran. I moved on, but he... he became trapped in the very world he hated.
+  <br><br>
+  I didn't understand why he had to stay then. Now I do. He had no choice.
+  <br><br>
+  I abandoned the love of my life to fight a force I didn't even know existed. He has every right to hate me, to never want to see me again. But now that I understand the darkness he's been fighting, I couldn't walk away again.
+  `
+  }
 ]

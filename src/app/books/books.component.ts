@@ -3,7 +3,7 @@ import { Book } from '../model/Book';
 import { BookComponent } from './book/book.component';
 import { CommonModule } from '@angular/common';
 import { MatDividerModule } from '@angular/material/divider';
-import { books } from '../model/Books';
+import { advocatesBooks, standaloneBooks } from '../model/Books';
 
 @Component({
   selector: 'app-books',
@@ -12,9 +12,11 @@ import { books } from '../model/Books';
   styleUrl: './books.component.scss'
 })
 export class BooksComponent {
-  books: Book[];
+  advocatesBooks: Book[];
+  standaloneBooks: Book[];
 
   constructor() {
-    this.books = books;
+    this.advocatesBooks = advocatesBooks;
+    this.standaloneBooks = standaloneBooks;
   }
 }

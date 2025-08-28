@@ -21,7 +21,11 @@
 }
 
 #highlight-text {
-    margin-bottom: 3vh;
+    margin-bottom: 0;
+}
+
+#preorder-text {
+    margin-bottom: 1vh;
 }
 
 .highlight-image {
@@ -29,11 +33,9 @@
     max-width: 200px;
 }
 
-button {
+#highlight-button {
     background-color: black;
-    color: white;
     border: none;
-    padding: 20px;
     cursor: pointer;
 }
 

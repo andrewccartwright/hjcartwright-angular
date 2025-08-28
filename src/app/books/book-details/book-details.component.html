@@ -4,7 +4,7 @@
         <div id="book-details-content">
             <h2>{{ book.title }}</h2>
 
-            <h3>{{ book.seriesTitle }}: BOOK {{ book.order }}</h3>
+            <h3 *ngIf="book.seriesTitle">{{ book.seriesTitle }}: BOOK {{ book.order }}</h3>
 
             <mat-divider></mat-divider>
             <div id="book-description" #bookDescription></div>

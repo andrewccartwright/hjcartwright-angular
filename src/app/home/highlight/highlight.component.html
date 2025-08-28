@@ -5,9 +5,13 @@
         <h1>{{bookHighlight.title}}</h1>
 
         <p id="highlight-text">{{bookHighlight.highlight}}</p>
+        <p id="preorder-text">Click below to preorder now</p>
+    
 
-        <a [routerLink]="`books/${bookHighlight.book.link}`" routerLinkActive="active" [state]="{book: bookHighlight.book}">
-            <button mat-raised-button color="primary">Learn More</button>
+
+        <!-- <a [routerLink]="`books/${bookHighlight.book.link}`" routerLinkActive="active" [state]="{book: bookHighlight.book}"> -->
+        <a href="https://hj-cartwright-shop.square.site/product/the-fall-of-rome-paperback-pre-order/EJYF6D5F5YIXGEEPJ73JJWKD" target=_blank>
+            <button id="highlight-button" mat-raised-button>Preorder</button>
         </a>
     </div> 
 </div>

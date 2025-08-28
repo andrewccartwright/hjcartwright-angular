@@ -1,6 +1,34 @@
 import { Book } from './Book';
 
-export const books: Book[] = [
+const theFallofRome: Book = {
+  title: 'The Fall of Rome',
+  imgSrc: 'images/the-fall-of-rome.jpg',
+  link: 'the-fall-of-rome',
+  goodreadsLink: 'https://www.goodreads.com/book/show/240575911-the-fall-of-rome',
+  amazonLink: 'https://www.amazon.com/Fall-Rome-H-J-Cartwright-ebook/dp/B0FN9D1WJP/?_encoding=UTF8&pd_rd_w=ars1M&content-id=amzn1.sym.0fb2cce1-1ca4-439a-844b-8ad0b1fb77f7&pf_rd_p=0fb2cce1-1ca4-439a-844b-8ad0b1fb77f7&pf_rd_r=135-3441597-9537603&pd_rd_wg=Z9odI&pd_rd_r=7d151383-80d8-4d6c-abca-f4aa8e37c228&ref_=aufs_ap_sc_dsk',
+  description: `Losing control was Rebecca "Bec" Bly's worst nightmare.
+  <br><br>
+  As the acting CEO of ther family's powerful corporation, she thrives in the boardroom&mdash;sharp,composed, and always in command.
+  <br><br>
+  Enter <i>Rome Cipriani</i>... her new bodyguard and biggest headache. Assigned at her brother's insistence, Rome is everything Bec can't stand:
+  talkative, obnoxious, and annoyingly charming. He flirts with anything that breathes, refuses to take anything seriously... 
+  and yet, he's the only one who can make her laugh when everything feels like it's falling apart.
+  <br><br>
+  When Bec learns the board sees her as too cold, too calculating, and unfit to lead, she's given six months to prove she's more than just a hard-nosed executive.
+  And the one person who might help her soften her image? The infuriatingly magnetic Rome.
+  <br><br>
+  As they fake a relationship for the cameras to reshape her public persona, real sparks begin to fly. 
+  But when threats against her start to escalate, Rome has more to worry about than pretending to be her boyfriend... like keeping her safe.
+  <br><br>
+  Can Bec hold on to her career, her safety, and maybe... something she never expected to want?
+  `
+}
+
+export const standaloneBooks: Book[] = [
+  theFallofRome
+]
+
+export const advocatesBooks: Book[] = [
   {
     order: "ONE",
     seriesTitle: 'THE ADVOCATES',
@@ -132,3 +160,5 @@ export const books: Book[] = [
   `
   }
 ]
+
+export const currentRelease: Book = theFallofRome;

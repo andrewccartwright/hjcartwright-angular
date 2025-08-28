@@ -1,6 +1,6 @@
 export type Book = {
-    order: string;
-    seriesTitle: string;
+    order?: string;
+    seriesTitle?: string;
     title: string;
     imgSrc: string;
     description: string;

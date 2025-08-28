@@ -8,7 +8,7 @@ const theFallofRome: Book = {
   amazonLink: 'https://www.amazon.com/Fall-Rome-H-J-Cartwright-ebook/dp/B0FN9D1WJP/?_encoding=UTF8&pd_rd_w=ars1M&content-id=amzn1.sym.0fb2cce1-1ca4-439a-844b-8ad0b1fb77f7&pf_rd_p=0fb2cce1-1ca4-439a-844b-8ad0b1fb77f7&pf_rd_r=135-3441597-9537603&pd_rd_wg=Z9odI&pd_rd_r=7d151383-80d8-4d6c-abca-f4aa8e37c228&ref_=aufs_ap_sc_dsk',
   description: `Losing control was Rebecca "Bec" Bly's worst nightmare.
   <br><br>
-  As the acting CEO of ther family's powerful corporation, she thrives in the boardroom&mdash;sharp,composed, and always in command.
+  As the acting CEO of ther family's powerful corporation, she thrives in the boardroom&mdash;sharp, composed, and always in command.
   <br><br>
   Enter <i>Rome Cipriani</i>... her new bodyguard and biggest headache. Assigned at her brother's insistence, Rome is everything Bec can't stand:
   talkative, obnoxious, and annoyingly charming. He flirts with anything that breathes, refuses to take anything seriously... 

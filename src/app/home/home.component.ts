@@ -19,7 +19,7 @@ export class HomeComponent {
       {
         book: currentRelease,
         title: 'New Release!',
-        highlight: `${currentRelease.title}, coming November 20, 2025!`
+        highlight: `${currentRelease.title} is out now!`
       }
     ]
   }

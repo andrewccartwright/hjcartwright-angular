@@ -1,5 +1,17 @@
 import { Book } from './Book';
 
+
+const inEveryLifetime: Book = {
+  title: 'In Every Lifetime',
+  imgSrc: 'images/in-every-lifetime.png',
+  preorderImgSrc: 'images/in-every-lifetime-preorder.png',
+  link: 'in-every-lifetime',
+  goodreadsLink: 'https://www.goodreads.com/book/show/249107497-in-every-lifetime',
+  description: 'Coming 2026',
+  excludeContentWarnings: true,
+  amazonLink: 'https://www.amazon.com/Every-Lifetime-H-J-Cartwright-ebook/dp/B0GPP6JDS3/ref=books_amazonstores_desktop_mfs_aufs_ap_sc_dsk_0?_encoding=UTF8&pd_rd_w=lmR6v&content-id=amzn1.sym.6d92b4c0-97d6-4063-b66e-20890dfbd616&pf_rd_p=6d92b4c0-97d6-4063-b66e-20890dfbd616&pf_rd_r=139-0885746-8721250&pd_rd_wg=SZEH4&pd_rd_r=9ba8770f-301f-40e0-94cc-ff78e858bfc5'
+}
+
 const theFallofRome: Book = {
   title: 'The Fall of Rome',
   imgSrc: 'images/the-fall-of-rome.jpg',
@@ -25,7 +37,8 @@ const theFallofRome: Book = {
 }
 
 export const standaloneBooks: Book[] = [
-  theFallofRome
+  theFallofRome,
+  inEveryLifetime
 ]
 
 export const advocatesBooks: Book[] = [
@@ -161,4 +174,4 @@ export const advocatesBooks: Book[] = [
   }
 ]
 
-export const currentRelease: Book = theFallofRome;
+export const currentRelease: Book = inEveryLifetime;

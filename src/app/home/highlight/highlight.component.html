@@ -1,16 +1,15 @@
 <div id="book-highlight" class="home-panel">
-    <img class="highlight-image" [src]="bookHighlight.book.imgSrc" [alt]="bookHighlight.book.title" />
+    <img class="highlight-image" [src]="bookHighlight.book.preorderImgSrc" [alt]="bookHighlight.book.title" />
 
     <div id="highlight-content">
         <h1>{{bookHighlight.title}}</h1>
 
         <p id="highlight-text">{{bookHighlight.highlight}}</p>
-        <p id="preorder-text">Click below to purchase</p>
+        <p id="preorder-text">Click below to preorder</p>
     
 
-
         <!-- <a [routerLink]="`books/${bookHighlight.book.link}`" routerLinkActive="active" [state]="{book: bookHighlight.book}"> -->
-        <a href="https://hj-cartwright-shop.square.site/product/the-fall-of-rome-paperback-pre-order/EJYF6D5F5YIXGEEPJ73JJWKD" target=_blank>
+        <a href="https://hj-cartwright-shop.square.site/product/in-every-lifetime-paperback-pre-order/FPQMIMEAVTLTIMH3IY6X24FX?cp=true&sa=true&sbp=false&q=false" target=_blank>
             <button id="highlight-button" mat-raised-button>Buy</button>
         </a>
     </div> 

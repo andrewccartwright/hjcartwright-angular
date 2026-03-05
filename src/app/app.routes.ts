@@ -43,6 +43,11 @@ export const routes: Routes = [
         title: 'The Fall of Rome'
     },
     {
+        path: 'books/in-every-lifetime',
+        component: BookDetailsComponent,
+        title: 'In Every Lifetime'
+    },
+    {
         path: 'shop',
         component: ShopComponent,
         title: 'H.J. Cartwright - Shop'

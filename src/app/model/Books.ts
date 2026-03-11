@@ -7,7 +7,26 @@ const inEveryLifetime: Book = {
   preorderImgSrc: 'images/in-every-lifetime-preorder.png',
   link: 'in-every-lifetime',
   goodreadsLink: 'https://www.goodreads.com/book/show/249107497-in-every-lifetime',
-  description: 'Coming 2026',
+  description: `She thought walking away would end the heartbreak.
+  <br>
+  But Fai returned... sober, determined, and with a shocking revelation.
+  <br><br>
+  Sarah Martin fought hard to rebuild her life after leaving the man she once promised forever to.
+  Loving Fai meant living with the chaos of his addiction, the broken promises, and the heartbreak she could no longer survive.
+  <br><br>
+  Leaving him was supposed to be the end of their story. Until Fai shows up at her door with the unexpected discovery of a brother he never knew existed.
+  <br><br>
+  Sarah should say no when he asks for her help. Instead, she finds herself traveling to Montana beside her ex, determined not to lose herself again.
+  <br><br>
+  But the closer they get, the harder it becomes to ignore the past... or the feelings neither of them truly left behind.
+  <br><br>
+  Montana holds more than second chances.
+  <br><br>
+  The man claiming to be Fai's long-lost brother brings answers Fai has waited years to find... but something about him leaves Sarah uneasy.
+  The more time they spend together, the more she suspects he's hiding dangerous secrets.
+  <br><br>
+  Old wounds, buried truths, and the secrets they've kept from each other may prove that some second chances come with a price.
+  `,
   excludeContentWarnings: true,
   amazonLink: 'https://www.amazon.com/Every-Lifetime-H-J-Cartwright-ebook/dp/B0GPP6JDS3/ref=books_amazonstores_desktop_mfs_aufs_ap_sc_dsk_0?_encoding=UTF8&pd_rd_w=lmR6v&content-id=amzn1.sym.6d92b4c0-97d6-4063-b66e-20890dfbd616&pf_rd_p=6d92b4c0-97d6-4063-b66e-20890dfbd616&pf_rd_r=139-0885746-8721250&pd_rd_wg=SZEH4&pd_rd_r=9ba8770f-301f-40e0-94cc-ff78e858bfc5'
 }

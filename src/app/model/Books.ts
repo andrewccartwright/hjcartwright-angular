@@ -27,7 +27,6 @@ const inEveryLifetime: Book = {
   <br><br>
   Old wounds, buried truths, and the secrets they've kept from each other may prove that some second chances come with a price.
   `,
-  excludeContentWarnings: true,
   amazonLink: 'https://www.amazon.com/Every-Lifetime-H-J-Cartwright-ebook/dp/B0GPP6JDS3/ref=books_amazonstores_desktop_mfs_aufs_ap_sc_dsk_0?_encoding=UTF8&pd_rd_w=lmR6v&content-id=amzn1.sym.6d92b4c0-97d6-4063-b66e-20890dfbd616&pf_rd_p=6d92b4c0-97d6-4063-b66e-20890dfbd616&pf_rd_r=139-0885746-8721250&pd_rd_wg=SZEH4&pd_rd_r=9ba8770f-301f-40e0-94cc-ff78e858bfc5'
 }
 

@@ -18,8 +18,8 @@ export class HomeComponent {
     this.highlights = [
       {
         book: currentRelease,
-        title: 'Coming Soon!',
-        highlight: `${currentRelease.title} will be released on May 21, 2026!`
+        title: 'New Release!',
+        highlight: `${currentRelease.title} is out now!`
       }
     ]
   }

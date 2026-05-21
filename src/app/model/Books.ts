@@ -4,7 +4,7 @@ import { Book } from './Book';
 const inEveryLifetime: Book = {
   title: 'In Every Lifetime',
   imgSrc: 'images/in-every-lifetime.png',
-  preorderImgSrc: 'images/in-every-lifetime-preorder.png',
+  preorderImgSrc: 'images/in-every-lifetime-pr-package.webp',
   link: 'in-every-lifetime',
   goodreadsLink: 'https://www.goodreads.com/book/show/249107497-in-every-lifetime',
   description: `She thought walking away would end the heartbreak.

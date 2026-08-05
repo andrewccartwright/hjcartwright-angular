@@ -3,7 +3,7 @@ import { Book } from './Book';
 const echoesInTheDark: Book = {
   title: 'Echoes In The Dark',
   imgSrc: 'images/echoes-in-the-dark.jpg',
-  preorderImgSrc: 'images/eitd-postcard.jpg',
+  preorderImgSrc: 'images/eitd-postcard.png',
   link: 'echoes-in-the-dark',
   preorderLink: 'https://hj-cartwright-shop.square.site/product/echoes-in-the-dark-paperback-pre-order/SOVTNPQFK4ERXJ53ILOD6JKQ',
   goodreadsLink: 'https://www.goodreads.com/book/show/255425801-echoes-in-the-dark',

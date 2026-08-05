@@ -4,6 +4,7 @@ export type Book = {
     title: string;
     imgSrc: string;
     preorderImgSrc?: string;
+    preorderLink?: string;
     description: string;
     link: string;
     goodreadsLink: string;

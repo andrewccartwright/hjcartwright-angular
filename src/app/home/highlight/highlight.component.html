@@ -8,8 +8,8 @@
         <!-- <p id="preorder-text">Click below to purchase</p> --
 
         <!-- <a [routerLink]="`books/${bookHighlight.book.link}`" routerLinkActive="active" [state]="{book: bookHighlight.book}"> -->
-        <a href="https://hj-cartwright-shop.square.site/product/in-every-lifetime-paperback-pre-order/FPQMIMEAVTLTIMH3IY6X24FX?cp=true&sa=true&sbp=false&q=false" target=_blank>
-            <button id="highlight-button" mat-raised-button>Buy</button>
+        <a [href]="bookHighlight.book.preorderLink" target=_blank>
+            <button id="highlight-button" mat-raised-button>Preorder Now</button>
         </a>
     </div> 
 </div>

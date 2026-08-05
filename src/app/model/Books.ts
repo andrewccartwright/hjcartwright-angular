@@ -1,5 +1,34 @@
 import { Book } from './Book';
 
+const echoesInTheDark: Book = {
+  title: 'Echoes In The Dark',
+  imgSrc: 'images/echoes-in-the-dark.jpg',
+  preorderImgSrc: 'images/eitd-postcard.jpg',
+  link: 'echoes-in-the-dark',
+  preorderLink: 'https://hj-cartwright-shop.square.site/product/echoes-in-the-dark-paperback-pre-order/SOVTNPQFK4ERXJ53ILOD6JKQ',
+  goodreadsLink: 'https://www.goodreads.com/book/show/255425801-echoes-in-the-dark',
+  description: `To catch a ghost, she needs the one man she can't stand. To save her life, he'll have to risk everything.
+  <br><br>
+  Goldie prefers operating in the shadows. As chief editor of an investigative journal, she's used to running the show 
+  from behind the scenes, until a story comes across her desk that she can't walk away from. 
+  A small town is being terrorized by the elusive Watcher, who leaves menacing notes in his wake—each one 
+  filled with secrets that hit too close to home. Driven by secrets she can't afford to expose, 
+  Goldie is determined to find the monster behind them, no matter the cost.
+  <br><br>
+  Four years ago, former playboy Lexington traded late nights for single-dad life when a baby was left on his doorstep. 
+  Now, his days are split between raising his son and trying not to get fired by his impossible boss, Goldie. 
+  His easy charm rubs her the wrong way, keeping them at constant odds. When Goldie decides to put their 
+  differences aside and pulls him into her investigation, working side-by-side turns years of workplace 
+  hostility into an undeniable spark neither expected.
+  <br><br>
+  But the Watcher is always one step ahead.
+  <br><br>
+  When Goldie disappears without a trace—leaving behind a bloodstained notebook—Lexington realizes the town 
+  wasn't the target. She was. Now, the clock is ticking, and Lexington has to find her before the woman who 
+  stole his heart becomes the Watcher's next victim.
+  `,
+  amazonLink: 'https://www.amazon.com/Echoes-Dark-H-J-Cartwright-ebook/dp/B0H6T43SXW?ref_=ast_author_mpb'
+}
 
 const inEveryLifetime: Book = {
   title: 'In Every Lifetime',
@@ -56,7 +85,8 @@ const theFallofRome: Book = {
 
 export const standaloneBooks: Book[] = [
   theFallofRome,
-  inEveryLifetime
+  inEveryLifetime,
+  echoesInTheDark
 ]
 
 export const advocatesBooks: Book[] = [
@@ -192,4 +222,4 @@ export const advocatesBooks: Book[] = [
   }
 ]
 
-export const currentRelease: Book = inEveryLifetime;
+export const currentRelease: Book = echoesInTheDark;

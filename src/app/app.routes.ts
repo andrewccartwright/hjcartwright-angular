@@ -48,6 +48,11 @@ export const routes: Routes = [
         title: 'In Every Lifetime'
     },
     {
+        path: 'books/echoes-in-the-dark',
+        component: BookDetailsComponent,
+        title: 'Echoes In The Dark'
+    },
+    {
         path: 'shop',
         component: ShopComponent,
         title: 'H.J. Cartwright - Shop'
